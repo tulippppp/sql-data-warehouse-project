@@ -28,3 +28,18 @@ CREATE DATABASE DataWarehouse;
 -- Use database
 USE DataWarehouse;
 
+CREATE TABLE bronze_customers (
+    id INT PRIMARY KEY,
+    name VARCHAR(100)
+);
+-- SILVER LAYER
+CREATE TABLE silver_customers (
+    id INT PRIMARY KEY,
+    name VARCHAR(100)
+);
+-- GOLD LAYER
+CREATE TABLE gold_dim_customers (
+    id INT PRIMARY KEY,
+    name VARCHAR(100)
+);
+
