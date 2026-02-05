@@ -14,7 +14,6 @@ It follows industry-style best practices in:
 ## 🏗️ Data Architecture (Medallion Architecture)
 
 This project follows the **Medallion Architecture** with **Bronze, Silver, and Gold layers**:
-![Data Architecture](docs/data_architecture.png)
 
 ### 🟤 Bronze Layer (Raw)
 - Stores raw data as-is from source systems  
