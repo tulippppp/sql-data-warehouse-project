@@ -7,7 +7,7 @@ It follows industry-style best practices in:
 - Data Engineering  
 - ETL Pipelines  
 - Data Modeling  
-- Analytics & Reporting  
+- Analytics & Reporting   
 
 ---
 
