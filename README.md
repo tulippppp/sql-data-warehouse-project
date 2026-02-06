@@ -17,7 +17,7 @@ This project follows the **Medallion Architecture** with **Bronze, Silver, and G
 
 ### 🟤 Bronze Layer (Raw)
 - Stores raw data as-is from source systems  
-- Data is ingested from **CSV files into MySQL**
+- Data is ingested from CSV Files into SQL Server Database.
 
 ### ⚪ Silver Layer (Cleaned + Standardized)
 - Data cleansing  
@@ -59,8 +59,8 @@ This repository highlights practical experience in:
 
 Everything used in this project is free:
 
-- **MySQL Server** (Database engine)
-- **MySQL Workbench** (GUI to manage and run SQL queries)
+- **SQL Server Express** (Lightweight server for hosting your SQL database.)
+- **SQL Server Management Studio (SSMS)** (GUI for managing and interacting with databases)
 - **Git & GitHub** (Version control + portfolio hosting)
 - **Draw.io** (Architecture diagrams + data models)
 - **Notion** (Project tracking template)
@@ -73,7 +73,7 @@ Everything used in this project is free:
 ### 1) Building the Data Warehouse (Data Engineering)
 
 #### Objective
-Develop a modern data warehouse using **MySQL** to consolidate sales data for analytics and reporting.
+Develop a modern data warehouse using SQL Server to consolidate sales data for analytics and reporting.
 
 #### Specifications
 - **Data Sources:** Import data from two source systems (ERP + CRM) provided as CSV files  
